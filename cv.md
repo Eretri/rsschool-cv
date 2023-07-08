@@ -1,6 +1,6 @@
 # Rebrushkin Andrey
 
-![my_photo](https://github.com/Eretri/rsschool-cv/assets/22414260/64d8a56d-bd8e-4958-a5a0-06398368f498)
+![my_photo](https://github.com/Eretri/rsschool-cv/assets/22414260/0a6b017a-6d4e-40a9-a7b1-6c5ae931df15)
 
 
 ### Contacts
