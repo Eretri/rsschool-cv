@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box;
+  }
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    text-decoration: none;
+    background-color: #61B7CF;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4d2323;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: #61B7CF;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+#profile {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-self: center;
+    margin-left: 400px;
+}
+
+#profile .info {
+    margin-left: 300px;
+}
+
+#profile .info h2 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: #057D9F;
+}
+
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-link {
+    padding: 0 15px; 
+    line-height: 30px;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+}
+
+.section {
+    width: 50%;
+}
+
+.main ul{
+    color: #BF7830;
+}
+
+.main ul li span {
+    color: #FFBA73;
+}
+
+.main p {
+    color: #BF7830;
+}
+
+.main code {
+    color: #BF7830;
+}
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #057D9F;
+}
+
+.link {
+    text-decoration: none;
+    color:#057D9F;
+    transition: color 0.5s;
+}
+
+.link:hover {
+    color: #025167;
+}
+
+.circle-image{
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.circle-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-container{
+    text-align: center;
+    
+}
+
+.author {
+    display: inline-block;
+    margin-right: 400px;
+}
+
+.year {
+    display: inline-block; padding: 0 15px; 
+    line-height: 30px;
+    text-decoration: none;
+    transition: .3s;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: white;
+    
+}
+
+.rs-school {
+    display: inline-block;
+    margin-left: 400px;
+}   
+
+.author a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+.rs-school a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.5s;
+}
+
+
+
